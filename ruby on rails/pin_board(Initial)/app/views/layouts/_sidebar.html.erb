@@ -1,0 +1,37 @@
+
+        <div id="globalModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content" id="globalModalContent">
+                    .
+                </div>
+
+            </div>
+        </div>
+
+
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/pins/new">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; New Pin
+  </a>
+  <a href="/users/edit"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Account</a>
+  <a class="" href="/"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>&nbsp; Pins</a>
+</div>
+
+
+<script>
+  
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.getElementById("showHide").classList.add('hide');
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.getElementById("showHide").classList.remove('hide');
+  }
+</script>
