@@ -15,5 +15,5 @@
 //= require jquery_ujs
 //= require masonry/jquery.masonry
 
-//= require toufiqElahySPA.js
+//= require toufiqElahySPA1.js
 //= require_tree ./channels
